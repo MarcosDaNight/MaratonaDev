@@ -1,0 +1,58 @@
+/*
+    CASTING STYLEHEST
+*/
+
+html, body {
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+
+/*Alinhamentos, espaçamentos larguras e alturas
+*/
+header, main, footer {
+    text-align: center;
+
+}
+
+
+
+
+header, .form, main {
+    /* espaçamentos com margem/margin 
+           cima/ lados / botton*/
+    margin: 0 auto 70px;
+
+    /* limites dos elementos na página */
+    width: 90%;
+    max-width: 500px;
+
+    
+}
+
+header h1, main h2 {
+    margin-bottom: 70px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+main .donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+footer {
+    margin-top: auto;
+}
