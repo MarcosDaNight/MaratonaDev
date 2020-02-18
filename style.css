@@ -33,6 +33,9 @@ header h1, main h2 {
 }
 
 
+header h1 span{
+         color: #ff4f4f;
+}
 
 main h2 span{
     color: #ff4f4f;
